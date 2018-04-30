@@ -1,0 +1,81 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:Candy Direct Hit
+ball_velocities:0,500
+background:color(pink)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/candy_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:1
+START_BLOCKS
+-------d
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: Wide Easy Candies
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/candyCrush.png)
+paddle_speed:100
+paddle_width:550
+block_definitions:definitions/candy_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:15
+START_BLOCKS
+-
+-
+-
+-
+-
+-
+-
+ccddccddccddccc
+
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+
+# Level 3
+# colors and candies!
+
+START_LEVEL
+level_name: Candy Rainbow
+ball_velocities:45,550
+background:image(background_images/candyCrush.png)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:105
+START_BLOCKS
+-
+-
+GGGGGGGGGGGGGGG
+rrrrrrrrrrrrrrr
+yyyyyyyyyyyyyyy
+ggggggggggggggg
+wwwwwwwwwwwwwww
+ppppppppppppppp
+ccccccccccccccc
+
+END_BLOCKS
+END_LEVEL

@@ -1,0 +1,9 @@
+# default values for blocks
+default height:50 width:50 stroke:color(black)
+
+# block definitions
+bdef symbol:c hit_points:2 fill:image(block_images/candy.png) fill-2:image(block_images/candyCrush.png)
+bdef symbol:d hit_points:1 fill:image(block_images/candyCrush.png)
+
+# spacers definitions
+sdef symbol:- width:50
